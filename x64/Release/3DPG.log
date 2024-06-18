@@ -1,0 +1,67 @@
+﻿  pch.cpp
+  DeviceResources.cpp
+  Ball.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Ball\Ball.cpp(95,25): warning C4100: 'elapsedTime': 引数は関数の本体部で 1 度も参照されません。
+  BallMove.cpp
+  BallThrow.cpp
+  TPSCamera.cpp
+  DisplayCollision.cpp
+  ObjMeshCollision.cpp
+  CommonResources.cpp
+  Enemy.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Enemy\Enemy.cpp(52,44): warning C4100: 'quaternion': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Enemy\Enemy.cpp(51,41): warning C4100: 'position': 引数は関数の本体部で 1 度も参照されません。
+  EnemyBase.cpp
+  EnemyBody.cpp
+  EnemyHead.cpp
+  EnemyLeftHand.cpp
+  EnemyLeg.cpp
+  EnemyRightHand.cpp
+  EnemyTail.cpp
+  Game.cpp
+  Main.cpp
+  Player.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\Player.cpp(105,40): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\Player.cpp(100,41): warning C4100: 'quaternion': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\Player.cpp(99,38): warning C4100: 'position': 引数は関数の本体部で 1 度も参照されません。
+  PlayerBase.cpp
+  コンパイル中...
+  PlayerBody.cpp
+  PlayerHead.cpp
+  PlayerLeftHand.cpp
+  PlayerLeg.cpp
+  PlayerRightHand.cpp
+  PlayerTail.cpp
+  PlayerJumping.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\State\PlayerJumping.cpp(117,34): warning C4100: 'keyboardStateTracker': 引数は関数の本体部で 1 度も参照されません。
+  PlayerRunning.cpp
+  PlayerStanding.cpp
+  PlayerTake.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\State\PlayerTake.cpp(103,34): warning C4100: 'keyboardStateTracker': 引数は関数の本体部で 1 度も参照されません。
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\State\PlayerTake.cpp(126,34): warning C4100: 'keyboardStateTracker': 引数は関数の本体部で 1 度も参照されません。
+  PlayerThrow.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Player\State\PlayerThrow.cpp(107,34): warning C4100: 'keyboardStateTracker': 引数は関数の本体部で 1 度も参照されません。
+  Resources.cpp
+  PlayScene.cpp
+C:\Users\it232202\Desktop\就職作品\CatDodge\Game\Scene\PlayScene.cpp(241,7): warning C4189: 'context': ローカル変数が初期化されましたが、参照されていません
+  Result.cpp
+  SceneManager.cpp
+  TitleScene.cpp
+  GenerateStage.cpp
+  Team.cpp
+  DebugDraw.cpp
+  GridFloor.cpp
+  コンパイル中...
+  CollisionMesh.cpp
+  CreateRay.cpp
+  DebugString.cpp
+  DrawVarious.cpp
+  InputManager.cpp
+  MousePoint.cpp
+  ResourcesManager.cpp
+     ライブラリ C:\Users\it232202\Desktop\就職作品\CatDodge\x64\Release\3DPG.lib とオブジェクト C:\Users\it232202\Desktop\就職作品\CatDodge\x64\Release\3DPG.exp を作成中
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 3331 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  3DPG.vcxproj -> C:\Users\it232202\Desktop\就職作品\CatDodge\x64\Release\3DPG.exe

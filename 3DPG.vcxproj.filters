@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1c4a63d8-8be7-4206-8e9b-c5c8bc272bb0</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e07fced4-d323-4665-a6ef-0da58b0f46f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{582b0255-bd7f-4fbc-a35d-f8c13d2fbf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{3c9cae57-ef8e-4d89-9ce8-daa682d325ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{53043c45-2397-49b9-97e7-98faee0b0a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{4bb7f6ff-9803-4a2b-a0e8-bacbe656715d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{c309d520-e3d0-40ec-859f-98ab4d9a9fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyLib">
+      <UniqueIdentifier>{a327e5ae-7623-4c97-9ac8-1d10ca95e8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Microsoft">
+      <UniqueIdentifier>{3ad90921-3d35-490e-837c-bc326a24aeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\NakashiLib">
+      <UniqueIdentifier>{4550fd52-76ec-4bd2-a0b0-f8d1a343055f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{81e0afe9-ad4e-4f63-95a0-f6d4011481d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{644b32a7-7d84-4f61-a3f0-3872a592dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{8e918140-d2c2-4f75-a818-b12d03360181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{92c0c61d-12dc-4a9c-ac60-4dbfe4e84ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision">
+      <UniqueIdentifier>{75d81f37-55b6-4716-99b4-ff005f6c7883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{d936cdf3-5983-44e8-86bb-78b9e2fa5c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ball">
+      <UniqueIdentifier>{242e2c9f-6407-49d2-8583-c0d79d3cef9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{a69222c7-bc95-49c7-9c70-6953fcdf713a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\State">
+      <UniqueIdentifier>{5b2343c6-ffb0-446f-be42-67afdb31a7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\Part">
+      <UniqueIdentifier>{8af998d3-c4a7-44c4-8763-c067d1615d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{a1dfe765-5683-4b49-8b5e-d61d66f5ce16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Parts">
+      <UniqueIdentifier>{26e219db-7d13-4714-b2df-3c097e73318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Team">
+      <UniqueIdentifier>{0ce2f589-1b95-4dbe-a8eb-df61bd4116ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\BehaviorState">
+      <UniqueIdentifier>{60c8dc3c-ceac-4ace-a079-62391c31d81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Stage">
+      <UniqueIdentifier>{07bd8c64-6407-4d7c-9999-ed8613fb28e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game\CommonResources.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Microsoft\DebugDraw.h">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screen.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\GridFloor.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\MemoryLeakDetector.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\PlayScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Result.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\TPSCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\DisplayCollision.h">
+      <Filter>Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\Collision.h">
+      <Filter>Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\ObjMeshCollision.h">
+      <Filter>Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DeviceResources.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\StepTimer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ball\Ball.h">
+      <Filter>Game\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IState.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IScene.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ball\BallThrow.h">
+      <Filter>Game\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ball\BallMove.h">
+      <Filter>Game\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerStanding.h">
+      <Filter>Game\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IComponent.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerBase.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerBody.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerHead.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerLeftHand.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerLeg.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerRightHand.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerRunning.h">
+      <Filter>Game\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerJumping.h">
+      <Filter>Game\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerTake.h">
+      <Filter>Game\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerThrow.h">
+      <Filter>Game\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerPart\PlayerTail.h">
+      <Filter>Game\Player\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyBody.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyHead.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyLeftHand.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyLeg.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyRightHand.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Parts\EnemyTail.h">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Team\Team.h">
+      <Filter>Game\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\BehaviorNode.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\MousePoint.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\CollisionMesh.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\PerlinNoise.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\GenerateStage.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\Icon.h">
+      <Filter>Resources\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\CreateRay.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\DrawVarious.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\ResourcesManager.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Resources.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\DebugString.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\NakashiLib\InputManager.h">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game\CommonResources.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Microsoft\DebugDraw.cpp">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\GridFloor.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\PlayScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Result.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\TPSCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\DisplayCollision.cpp">
+      <Filter>Game\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\ObjMeshCollision.cpp">
+      <Filter>Game\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DeviceResources.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ball\Ball.cpp">
+      <Filter>Game\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ball\BallThrow.cpp">
+      <Filter>Game\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ball\BallMove.cpp">
+      <Filter>Game\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerStanding.cpp">
+      <Filter>Game\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerBase.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerBody.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerHead.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerLeftHand.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerLeg.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerRightHand.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerRunning.cpp">
+      <Filter>Game\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerJumping.cpp">
+      <Filter>Game\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerTake.cpp">
+      <Filter>Game\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerThrow.cpp">
+      <Filter>Game\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerPart\PlayerTail.cpp">
+      <Filter>Game\Player\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyBody.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyHead.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyLeftHand.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyLeg.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyRightHand.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Parts\EnemyTail.cpp">
+      <Filter>Game\Enemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Team\Team.cpp">
+      <Filter>Game\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\MousePoint.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\CollisionMesh.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\GenerateStage.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\CreateRay.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\DrawVarious.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\ResourcesManager.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Resources.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\DebugString.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\NakashiLib\InputManager.cpp">
+      <Filter>Libraries\NakashiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="Resources\Icon\Icon.rc">
+      <Filter>Resources\Icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Ground.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TridentLogo.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Models\Ball.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerBody.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerHead.fbm_nekomimiTexture.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerHead.fbm_PlayerTextureaaa.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerLeftHand.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerLeg.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerRightHand.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\PlayerTail.fbm_PlayerBase.dds">
+      <Filter>Resources\Models</Filter>
+    </Image>
+    <Image Include="Resources\Icon\Icon.ico">
+      <Filter>Resources\Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Models\Ball.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerBody.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerHead.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerLeftHand.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerLeg.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerRightHand.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PlayerTail.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+  </ItemGroup>
+</Project>
